@@ -1,0 +1,32 @@
+/* src/components/VerticalSlider.css */
+.slider-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+  
+.vertical-slider {
+  appearance: none;
+  width: 200px; /* Adjust width */
+  height: 8px; /* Adjust height */
+  background: #ffffff;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+}
+  
+.vertical-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 24px;
+  height: 24px;
+  background: #000000;
+  border-radius: 50%;
+  cursor: pointer;
+}
+  
+.slider-value {
+  margin-left: 10px;
+  font-size: 16px;
+}
+  
