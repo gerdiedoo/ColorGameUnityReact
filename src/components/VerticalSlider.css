@@ -9,7 +9,7 @@
   appearance: none;
   width: 200px; /* Adjust width */
   height: 8px; /* Adjust height */
-  background: #ffffff;
+  background: #6e5858;
   border-radius: 10px;
   outline: none;
   cursor: pointer;
@@ -20,7 +20,7 @@
   -webkit-appearance: none;
   width: 24px;
   height: 24px;
-  background: #000000;
+  background: #ffffff;
   border-radius: 50%;
   cursor: pointer;
 }
